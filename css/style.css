@@ -1,0 +1,75 @@
+body {
+  font-family: Verdana;
+  font-size: 1.5em;
+  background: #333; }
+
+#team-members {
+  clear: both; }
+
+#team-members {
+  float: left;
+  /*border: 1px solid gray;*/
+  margin: 10px;
+  padding: 6px; }
+
+#team-members img {
+  width: 200px;
+  height: 150px;
+  border: 10px solid #fff;
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  box-shadow: 10px 10px 5px #DACA29;
+  border-radius: 25px; }
+
+#team-members .member_1 img:hover {
+  transform: scale(1.1);
+  content: url("https://openclipart.org/image/2400px/svg_to_png/191072/Blue-Robot.png"); }
+
+#team-members .member_2 img:hover {
+  transform: scale(1.1);
+  content: url("http://www.clipartlord.com/wp-content/uploads/2014/09/robot29.png"); }
+
+#team-members .member_3 img:hover {
+  transform: scale(1.1);
+  content: url("http://www.clipartlord.com/wp-content/uploads/2013/11/robot12.png"); }
+
+#team-members .member_4 img:hover {
+  transform: scale(1.1);
+  content: url("http://i.imgur.com/qCc3odn.png"); }
+
+#team-members .member_5 img:hover {
+  transform: scale(1.1);
+  content: url("http://orig11.deviantart.net/e1df/f/2012/190/f/4/cute_kawaii_robot_by_trubuteofdistrict13-d56m61z.png"); }
+
+#team-members .member_6 img:hover {
+  transform: scale(1.1);
+  content: url("http://www.misskatecuttables.com/uploads/shopping_cart/9752/large_love-robot-girl.png"); }
+
+#team-members div.name {
+  text-align: center; }
+
+body h1 {
+  color: #FFFF00; }
+
+h2 {
+  text-align: center;
+  background-color: #FFFF00;
+  width: 350px;
+  height: 50px; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
